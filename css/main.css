@@ -1,0 +1,169 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card{
+    border: transparent !important;
+    
+}
+
+.container-fluid, .col-md-6{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+.navbar-nav > .nav-item{
+    margin-right: 14px;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+#footerPart{
+    background-color: rgba(115, 186, 189, 0.842);
+    text-align: center;
+}
+
+
+.footer{
+    color:#ffffff;
+    padding: 25px 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 25px;
+    
+}
+.footer ul{
+    padding-inline-start: 0 !important;
+}
+.footer > .shop-PartFooter> h3, .socialLinks-PartFooter> h3, .blog-PartFooter> h3, .infoCustomer-PartFooter> h3, .aboutUs-PartFooter> h3, .Paiement-PartFooter> h3 {
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.socialLinks-PartFooter, h3 .list-items{
+    float: right;
+}
+
+.d-block{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.col-lg-9{
+    
+
+}
+
+ */
+
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+.body-home{
+    
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.card{
+    border: transparent !important;
+    
+}
+
+
+.bestSellers{
+  padding: 28px 15px;
+  
+}
+
+.bestSellers .card {
+    overflow: hidden;
+    
+}
+.bestSellers .card .displayImg{
+    transition: transform 2s;
+}
+
+.bestSellers .card:hover .displayImg{
+    transform: scale(1.2)
+}
+
+.bestSellers .card .bestProduct{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 35%;
+    right: 0;
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.bestSellers .card .bestProduct a{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 10px;
+    color: #000;
+    background-color: #ffff;
+
+}
+
+.bestSellers .card:hover .bestProduct{
+    transform: scaleY(1);
+    opacity: .33;
+}
+
+/* #bestSellers .bestProduct a{
+    display: flex;
+    display:none;
+    height:30px;
+    width:290px;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: opacity .25s;
+}
+.bestSellers img.bestProduct a:hover {
+  display: block;
+  cursor: pointer; 
+}
+*/
+#links-details-home{
+    display: flex;
+}
+
+#links-details-home .card{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 50px 9px;
+    border-radius: 9%;
+
+}
+

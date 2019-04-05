@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
- <?php include("constructor/head.php"); ?>
+ <?php include("template/headIndex.php"); ?>
     <body>
-    <?php include("constructor/menu.php"); ?>
+    <?php include("template/menu.php"); ?>
 
 <div class= "body-home">
 
@@ -96,8 +96,8 @@
       </div>
 </div>
 
-    <?php include("constructor/footer.php"); ?>
-    <?php include("constructor/scriptbase.php");  ?>
+    <?php include("template/footer.php"); ?>
+    <?php include("template/scriptbase.php");  ?>
     </body>
 
 </div>

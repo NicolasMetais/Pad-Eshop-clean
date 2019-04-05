@@ -1,0 +1,52 @@
+.quatreArticles{
+    
+    order:4;
+    flex:0 1 100% ;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    border-top: solid 0.1px;
+    border-top-color: grey;
+    margin-top : 100px;
+    padding-top : 50px;
+
+
+}
+
+
+
+.quatreArticlesTitreDiv{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+
+.quatreArticlesTitre{
+}
+
+.quatreArticleDiv{
+    height: 85%;
+    max-width: 300px;
+    
+    
+}
+
+#image-quatreArticles2{
+    width: 75%; 
+    padding : 5px;
+    
+}
+#image-quatreArticles3{
+    width: 75%;  
+    padding : 5%;
+}
+#image-quatreArticles4{
+    width: 75%;
+    padding: 5%;
+}
+#image-quatreArticles5{
+    width: 75%;
+    padding: 5%;
+}
