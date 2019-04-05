@@ -1,0 +1,79 @@
+
+ /* .footer{
+    color:#ffffff;
+     padding: 25px 0px;
+    font-size: 12px;
+    line-height: 25px; 
+    
+} */
+
+
+/* .d-block{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+} */
+/* a:hover{
+    text-decoration: none;
+} */
+
+li{
+    list-style-type: none;
+    /* text-decoration: none;
+    list-style: none; */
+  
+}
+
+ul{
+    padding: 0;
+    
+}
+
+/* footer css flex box */
+
+/* .footerPart{
+    width: 100%;
+} */
+/* *{
+    padding: 0;
+} */
+
+#footerPart{
+    background-color: rgb(52, 58, 64);
+    text-align: left; 
+    display : flex;
+    justify-content: center;
+   padding : 25px;
+   color: white;
+
+
+
+    
+   
+  
+    
+}
+
+.footer{
+
+    max-width: 1200px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    /* width: 1200; */
+    flex : 1 0 600px;
+    
+
+}
+
+/* zergz"rgrbergnb dxfgs dfgbergzerg */
+.shop,.blog,.aboutUs,.Paiement,.infoCustomer,.socialLinks{
+    flex:125px;
+
+
+    
+    /* margin: -25px; */
+    
+}

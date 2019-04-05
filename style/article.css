@@ -1,0 +1,112 @@
+body{
+    margin-top: 50px;
+}  
+
+
+#all{
+    margin-top: 100px;
+}
+
+.info-article{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+    /* border-top: solid 0.1px; */
+    /* border-top-color: grey; */
+
+
+   }
+
+        .image-produit-div{
+            order:2;
+            flex:0 1 600px;
+        }
+
+    .image-produit-grand{
+        flex : 600px;
+        justify-content: center;
+    }
+
+        #image-produit{
+            max-width: 75%;
+            height: auto;
+            padding-top: 5px;
+            /* margin-left: 75px; */
+            margin-right: auto;
+            margin: auto;
+        }
+
+        .image-produit-petit{
+            
+            display: flex;
+            justify-content: center;
+            
+}
+
+                #image-produit2, #image-produit3, #image-produit4{
+                    width: 20%;
+                    height: 20%;
+                }
+
+            image-produit4:hover {
+                    background-color: green;
+                  }
+            
+
+.description-article{
+    order:3;
+    min-height:400px;
+    flex:1 400px;
+    max-width: 800px;
+
+}
+
+.descriptionSafe{
+    display: flex;
+}
+
+
+.safe{
+    max-width: 100%;
+	height: auto;
+    
+}
+
+.safeDiv{
+    width: 20px;
+    height: 20px;
+}
+.descriptionSafe{
+   
+}
+
+.tailleCouleur{
+    display : block;
+}
+
+.btn-group{
+    padding : 10px;
+}
+.button-achat{
+    padding: 10px;
+}
+
+.button-ajout-panier{
+    padding: 10px;
+    
+}
+
+
+.btn.btn-secondary.btn-lg.btn-block.achat{  
+     background-color: darkred;
+}
+
+.btn.btn-secondary.btn-lg.btn-block.panier{
+    background-color:  green;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+

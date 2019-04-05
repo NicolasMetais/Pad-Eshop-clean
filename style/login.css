@@ -1,0 +1,39 @@
+/* .tab-shipping{
+    margin: 3%;
+
+} */
+
+
+.main-layout{
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-bottom: 235px;
+    margin-top: 100px;
+}
+
+/* .main-layout .container {
+    padding: 30px 90px;
+} */
+
+/* #loginClient{
+     width: 49%;
+     color: #000;
+} */
+#loginClient h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.button-login{
+    float: right;
+    color: #84b8b9 !important;
+}
+/* 
+input{
+    width: 35%;
+} */
+.action-bottom {
+    margin-top: 35px;
+}
